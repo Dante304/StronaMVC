@@ -10,20 +10,17 @@ namespace PartyInvites.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public ViewResult Index()
         {
-            return View();
+            int hour = DateTime.Now.Hour;
+            ViewBag.Powitanie =  hour < 17 ? "Dzien dobry" : "Dobry wieczór";
+
+            return View("MyView");
         }
 
-        public IActionResult Privacy()
+        public ViewResult RsvpForm()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

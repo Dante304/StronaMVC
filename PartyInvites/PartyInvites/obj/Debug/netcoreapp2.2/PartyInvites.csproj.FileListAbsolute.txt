@@ -30,3 +30,5 @@ C:\Users\k.dobrogost\Desktop\StronaMVC\StronaMVC\PartyInvites\PartyInvites\obj\D
 C:\Users\k.dobrogost\Desktop\StronaMVC\StronaMVC\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.2\PartyInvites.csproj.CopyComplete
 C:\Users\k.dobrogost\Desktop\StronaMVC\StronaMVC\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.2\Razor\Views\Home\MyView.g.cshtml.cs
 C:\Users\k.dobrogost\Desktop\StronaMVC\StronaMVC\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.2\Razor\Views\Home\RsvpForm.g.cshtml.cs
+C:\Users\k.dobrogost\Desktop\StronaMVC\StronaMVC\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.2\Razor\Views\Home\Thanks.g.cshtml.cs
+C:\Users\k.dobrogost\Desktop\StronaMVC\StronaMVC\PartyInvites\PartyInvites\obj\Debug\netcoreapp2.2\Razor\Views\Home\ListResponses.g.cshtml.cs

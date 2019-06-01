@@ -11,12 +11,13 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Przyjecie sylwestrowe</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
-    <div>
-        @ViewBag.Powitanie. Witaj z widoku!
-        <p>Zapraszam na wspaniałe przyjęcie.<br /></p>
-        <a asp-action="RsvpForm">Wyślij do RSVP</a>
+    <div class="text-center">
+        <h2>Zapraszam na wspaniałe przyjęcie.</h2>
+        <h3>No weź kliknij</h3>
+        <a class= "btn btn-primary"asp-action="RsvpForm">Wyślij do RSVP</a>
     </div>
 </body>
 </html>

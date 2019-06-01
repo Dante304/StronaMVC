@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>ListResponses</title>
+</head>
+<body>
+    <div class="panel-body">
+        <h2>Oto lista gości</h2>
+        <table class="table table-sm table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Imie i nazwisko</th>
+                    <th>Adres e-mail</th>
+                    <th>Numer telefonu</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (PartyInvites.Models.GuestResponse r in Model)
+                {
+                    <tr>
+                        <th>@r.Name</th>
+                        <th>@r.Email</th>
+                        <th>@r.Phone</th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

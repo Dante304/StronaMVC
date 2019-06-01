@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Dziękujemy</title>
+</head>
+<body class="text-center">
+    <p>
+        <h1>Dziękujemy, @Model.Name!</h1>
+        @if (Model.WillAttend == true)
+        {
+            @:Super że przyjdziesz
+        }
+        else
+        {
+            @:No szkoda
+        }
+    </p>
+    <p>Kliknij <a class="nav-link" asp-action="ListResponses">tutaj</a>, aby wyświetlić listę gości.</p>
+</body>
+</html>

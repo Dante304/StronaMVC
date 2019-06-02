@@ -12945,11 +12945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\k.dobrogost\\Source\\repos\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
+      "projectUniqueName": "C:\\Users\\k.dobrogost\\Desktop\\StronaMVC\\StronaMVC\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
       "projectName": "LanguageFeatures",
-      "projectPath": "C:\\Users\\k.dobrogost\\Source\\repos\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
+      "projectPath": "C:\\Users\\k.dobrogost\\Desktop\\StronaMVC\\StronaMVC\\LanguageFeatures\\LanguageFeatures\\LanguageFeatures.csproj",
       "packagesPath": "C:\\Users\\k.dobrogost\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\k.dobrogost\\Source\\repos\\LanguageFeatures\\LanguageFeatures\\obj\\",
+      "outputPath": "C:\\Users\\k.dobrogost\\Desktop\\StronaMVC\\StronaMVC\\LanguageFeatures\\LanguageFeatures\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
